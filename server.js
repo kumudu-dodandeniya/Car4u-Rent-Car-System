@@ -21,8 +21,9 @@ const PORT = 8000;
      console.log(`app is running on ${PORT}`);
  });
 
-mongoose.connect("mongodb+srv://kumudu:kumudu1234@cluster1.rjapr.mongodb.net/cars?retryWrites=true&w=majority",{useNewUrlParser: true,useUnifiedTopology: true})
-.then(() =>{
-    console.log("Connected To Database");
-})
-.catch((error)=> console.log(error));
+ mongoose.connect("mongodb+srv://kumududodandeniya:kumudu123@car.vxvfn3n.mongodb.net/?retryWrites=true&w=majority",{useNewUrlParser: true,useUnifiedTopology: true})
+ .then(() =>{
+     console.log("Connected To Database");
+ })
+ .catch((error)=> console.log(error));
+ 
